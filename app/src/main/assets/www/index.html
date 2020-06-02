@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arno</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        // external url
+        var ref = window.open(encodeURI('http://ykh2k.ddns.net:3000'), '_blank', 'location=no');
+        // relative document
+        // ref = window.open('index.html', '_self');
+    }
+
+    </script>
+</head>
+<body>
+</body>
+</html>
